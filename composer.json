@@ -1,0 +1,20 @@
+{
+    "name": "Fugs32/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fugs32\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Żołnierkiewicz",
+            "email": "tomasz.zolnierkiewicz@teb.edu.pl"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
